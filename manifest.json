@@ -1,0 +1,14 @@
+{
+    "name": "Cricket Matches Extension",
+    "version": "1.0.0",
+    "description": "Gives Real Time Cricket Updates",
+    "manifest_version": 3,
+    "author": "Anmol Rai",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Cricket Matches Extension"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
