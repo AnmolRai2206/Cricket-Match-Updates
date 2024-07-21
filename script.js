@@ -1,5 +1,5 @@
 async function getMatchData() {
-    return await fetch("https://api.cricapi.com/v1/currentMatches?apikey=bef4b6e4-0fbb-4e11-9410-6e16e2ca5ab1&offset=0")
+    return await fetch("https://api.cricapi.com/v1/currentMatches?apikey=4baa5e7b-bdd5-4d22-ab66-401b7e3e2d3c&offset=0")
         .then(data => data.json())
         .then(data => {
             if (data.status != "success") return;
